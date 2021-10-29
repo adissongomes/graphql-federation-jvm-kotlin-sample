@@ -1,0 +1,9 @@
+subgraphs:
+  books:
+    routing_url: http://localhost:9090/graphql
+    schema:
+      subgraph_url: http://localhost:9090/graphql
+  authors:
+    routing_url: http://localhost:9091/graphql
+    schema:
+      subgraph_url: http://localhost:9091/graphql
